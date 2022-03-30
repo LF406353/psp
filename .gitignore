@@ -1,0 +1,13 @@
+/build-linux/
+/build-macos/
+/build-windows/
+/api.trace
+.vs/
+/external/boost-build
+.idea/
+cmake-build-*/
+.vs
+.vscode
+build
+# generated on macOS
+.DS_Store

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<main_menubar>
+	<file name="文件">
+		<open_pref_path>打开存放路径</open_pref_path>
+		<install_firmware>安装系统固件</install_firmware>
+		<install_pkg>安装 .pkg</install_pkg>
+		<install_zip>安装 .zip 或者 .vpk</install_zip>
+	</file>
+	<emulation name="仿真拟">
+		<load_last_app>打开最后运行的APP</load_last_app>
+	</emulation>
+	<configuration name="配置">
+		<settings>设置</settings>
+		<user_management>用户管理</user_management>
+	</configuration>
+	<controls name="控制">
+		<keyboard_controls>按键映射</keyboard_controls>
+	</controls>
+	<help name="帮助">
+		<about>关于</about>
+		<welcome>欢迎界面</welcome>
+	</help>
+</main_menubar>
+
+<app_context>
+	<update_history>更新历史记录</update_history>
+	<information>信息</information>
+	<app_delete>删除此应用程序及所有相关数据，包括保存数据。</app_delete>
+	<save_delete>要删除此保存数据吗？</save_delete>
+	<name>名称</name>
+	<trophy_earning eligible="有权" ineligible="无权">获得奖杯</trophy_earning>
+	<parental_Controls level="级别">视听者限制</parental_Controls>
+	<updated>升级日期</updated>
+	<size>大小</size>
+	<version>版本</version>
+</app_context>
+
+<dialog>
+	<trophy>
+		<preparing_start_app>正在准备启动应用程序…</preparing_start_app>
+	</trophy>
+	<save_data>
+		<delete>
+			<cancel_deleting>要取消删除吗？</cancel_deleting> 
+			<deletion_complete>删除完毕。</deletion_complete> 
+			<delete_saved_data>要删除此保存数据吗？</delete_saved_data> 
+		</delete>
+		<info>
+			<details>详细信息</details>
+			<updated>升级日期</updated>
+		</info>
+		<load name="读取">
+			<cancel_loading>要取消读取吗？</cancel_loading>
+			<no_saved_data>保存数据不存在。</no_saved_data>
+			<load_complete>读取完毕。</load_complete>
+			<loading>正在读取…</loading>
+			<load_saved_data>要读取此保存数据吗？</load_saved_data>
+		</load>
+		<save name="保存">
+			<cancel_saving>要取消保存吗？</cancel_saving>
+			<could_not_save>无法保存文件。
+存储卡没有足够的空余容量。</could_not_save>
+			<not_free_space>存储卡没有足够的空余容量。</not_free_space>
+			<new_saved_data>新建保存数据</new_saved_data>
+			<saving_complete>保存完毕。</saving_complete>
+			<save_the_data>要保存数据吗？</save_the_data>
+			<saving>正在保存…</saving>
+			<warning_saving>正在保存…
+请勿关闭电源或关闭应用程序。</warning_saving>
+			<overwrite_saved_data>要覆盖此保存数据吗？</overwrite_saved_data>
+		</save>
+	</save_data>
+</dialog>
+
+<indicator>
+	<app_added_home>已将应用程序添加至主画面。</app_added_home>
+	<delete_all>全部删除</delete_all>
+	<notif_deleted>最新资讯将被删除。</notif_deleted>
+	<install_failed>无法安装。</install_failed>
+	<install_complete>安装完毕。</install_complete>
+	<installing>正在安装…</installing>
+	<no_notif>没有最新资讯。</no_notif>
+	<trophy_earned>已获得奖杯！</trophy_earned>
+</indicator>
+
+<live_area>
+	<start>开始</start>
+	<continue>继续</continue>
+</live_area>
+
+<settings name="设定">
+	<theme_background name="主题&背景" default="原始">
+		<theme name="主题">
+			<information name="信息">
+				<name>名称</name>
+				<provider>提供者</provider>
+				<updated>升级日期</updated>
+				<size>大小</size>
+				<version>版本</version>
+			</information>
+			<delete>删除此主题。</delete>
+		</theme>
+		<start_screen name="开始画面">
+			<image>图像</image>
+		</start_screen>
+		<home_screen_backgrounds>主画面的背景</home_screen_backgrounds>
+	</theme_background>
+	<date_time name="日期&时间">
+		<date_format name ="日期格式">
+			<yyyy_mm_dd>年/月/日</yyyy_mm_dd>
+			<dd_mm_yyyy>日/月/年</dd_mm_yyyy>
+			<mm_dd_yyyy>月/日/年</mm_dd_yyyy>
+		</date_format>
+		<time_format name="时间格式">
+			<clock_12_hour>12小时制</clock_12_hour>
+			<clock_24_hour>24小时制</clock_24_hour>
+		</time_format>
+	</date_time>
+	<language name="语言">
+		<system_language>系统语言</system_language>
+	</language>
+</settings>
+
+<user_management>
+	<create_user>新建用户</create_user>
+	<edit_user>编辑用户</edit_user>
+	<delete_user>删除用户</delete_user>
+	<change_avatar>更换头像</change_avatar>
+	<name>用户名</name>
+	<user>用户</user>
+	<confirm>更改</confirm>
+</user_management>
+
+<start>
+	<wday>
+		<day>星期日</day>
+		<day>星期一</day>
+		<day>星期二</day>
+		<day>星期三</day>
+		<day>星期四</day>
+		<day>星期五</day>
+		<day>星期六</day>
+	</wday>
+
+	<ymonth>
+		<month>1月</month>
+		<month>2月</month>
+		<month>3月</month>
+		<month>4月</month>
+		<month>5月</month>
+		<month>6月</month>
+		<month>7月</month>
+		<month>8月</month>
+		<month>9月</month>
+		<month>10月</month>
+		<month>11月</month>
+		<month>12月</month>
+	</ymonth>
+</start>
